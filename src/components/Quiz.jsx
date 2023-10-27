@@ -1,4 +1,5 @@
 import { useCallback, useState } from "react";
+// react state
 import QUESTIONS from "../questions.js";
 import Question from "./Question.jsx";
 import Summary from "./Summary.jsx";
@@ -31,6 +32,7 @@ export default function Quiz() {
     <div id="quiz">
       <Question
         key={activeQuestionIndex}
+        // indentyfi
         index={activeQuestionIndex}
         onSelectAnswer={handleSelectAnswer}
         onSkipAnswer={handleSkipAnswer}

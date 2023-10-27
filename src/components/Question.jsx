@@ -10,6 +10,7 @@ export default function Question({ index, onSelectAnswer, onSkipAnswer }) {
   });
 
   let timer = 10000;
+  // check time
 
   if (answer.selectedAnswer) {
     timer = 1000;
